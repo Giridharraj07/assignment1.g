@@ -23,6 +23,6 @@ Q11-We can't use keywords as a variable.let's understand from example--         
 Q12- What is indentation? What's the use of indentaion in Python?
 A12-Indentation refers to the spaces at the beginning of a code line.python uses indentation to indicate a block of code.
 Q13- How can we throw some output in Python?
-A13- We can throw some out put by print. lets understand from example-                                                                                                               print("hello")                                                                                                                                                         Output-hello
+A13- We can throw some output by print. lets understand from example-                                                                                                               print("hello")                                                                                                                                                         Output-hello
 Q14.What are operators in Python?
 A14-
