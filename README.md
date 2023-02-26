@@ -25,4 +25,4 @@ A12-Indentation refers to the spaces at the beginning of a code line.python uses
 Q13- How can we throw some output in Python?
 A13- We can throw some output by print. lets understand from example-                                                                                                               print("hello")                                                                                                                                                         Output-hello
 Q14.What are operators in Python?
-A14-
+A14-operator is nothing but symbols that perform certain task.like as 5+5 =10 where (+) is operator.
