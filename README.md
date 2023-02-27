@@ -26,4 +26,11 @@ Q13- How can we throw some output in Python?
 A13- We can throw some output by print. lets understand from example-                                                                                                               print("hello")                                                                                                                                                         Output-hello
 Q14.What are operators in Python?
 A14-operator is nothing but symbols that perform certain task.like as 5+5 =10 where (+) is operator.                                                                  #1Numerical operators in python-> + for addition ,- for substractions,* for multiplication,/ for float division, // for integer division, ** for power calculation,% for Modulus.                                                                                                                                                            #2Comparison Operators (we compare operands value)-> (== , Equals to condition , x == y),(!= , Not Equals to condition , x != y),( > , Greater than condition , x > y)(< , Less than condition , x < y),( >= , Greater than and Equals to condition , x >= y)(<= , Less than and Equals to condition , x <= y).                                #3# Logical operators in Python(Logical check will happen for expression result)                                                                                        and -> Returns true if both statements are true                                                                                                                          or -> Returns true if one of statements are true                                                                                                                        not -> Reverse the result, returns false if the result is true.
-Q15-
+Q15-What is difference between / and // operators?
+A15-What is the uses of(/)-> for float division , what is the uses of (//)->for integer division. This is the major differnce between / & //.
+Q16-Write a code that gives following as an output.```iNeuroniNeuroniNeuroniNeuron```
+A16-str_data = "'''ineuronineuronineuronineuron'''"                                                                                                                         print(str_data)
+Q17-Write a code to take a number as an input from the user and check if the number is odd or even.
+A17-
+
+
