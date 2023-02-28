@@ -31,6 +31,6 @@ A15-What is the uses of(/)-> for float division , what is the uses of (//)->for 
 Q16-Write a code that gives following as an output.```iNeuroniNeuroniNeuroniNeuron```
 A16-str_data = "'''ineuronineuronineuronineuron'''"                                                                                                                         print(str_data)
 Q17-Write a code to take a number as an input from the user and check if the number is odd or even.
-A17-
-
-
+A17-if num%2==0:                                                                                                                                                              print("num is even :",num)                                                                                                                                           else:                                                                                                                                                                      print("num is odd :",num)  #output- num is even : 10                                                                                                               num=7                                                                                                                                                                  if num%2==0                                                                                                                                                                 print("num is even :",num)                                                                                                                                        else:                                                                                                                                                                       print("num is odd :",num)  #output#-num is odd
+Q18-What are boolean operator?
+A18-
