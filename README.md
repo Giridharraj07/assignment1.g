@@ -36,4 +36,5 @@ Q18-What are boolean operator?
 A18-the boolean operators and,or and not are also reffered to as logical operators.
 Q19. What will the output of the following?
 ```1 or 0                                                                                                                                                                  0 and 0                                                                                                                                                             True and False and True                                                                                                                                                 1 or 0 or 0```
-A19-
+A19-print("'''1 or 0\n 0 and 0\n true and false and true \n 1 or 0 or 0'''")
+Q20-
