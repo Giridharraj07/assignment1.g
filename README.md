@@ -37,5 +37,8 @@ A18-the boolean operators and,or and not are also reffered to as logical operato
 Q19. What will the output of the following?
 ```1 or 0                                                                                                                                                                  0 and 0                                                                                                                                                             True and False and True                                                                                                                                                 1 or 0 or 0```
 A19-print("'''1 or 0\n 0 and 0\n true and false and true \n 1 or 0 or 0'''")
-Q20- What are conditional statements in Python?
-A20-
+Q20-What are conditional statements in Python?
+A20-if, if else, if elif else- these are the conditional statements.
+Q21-What is use of 'if', 'elif' and 'else' keywords?
+A21-if statement- the if statement  is used to test condition. if the condition is true. a block of code(if-block) will be executed.                                       if condition/expression:                                                                                                                                                            statements                                                                                                                                                 elif statement-the elif keyword is python way of saying"if the previous condition were not true, then try this condition"                                               else statement-the else functionally is available for use only when the loop terminates normally.
+Q22-
