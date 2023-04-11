@@ -3,5 +3,6 @@ A26- A string is a sequence of characters
      str1="giri"
      print(str1)
 Q27. How can we access the string using its index?    
-A27- G="giridhar" 
-     print(G(0))
+A27- w= "giri"
+     print(w[1])
+     
