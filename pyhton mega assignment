@@ -12,4 +12,7 @@ Accessing Characters by Negative Index Number
      print(w[1]) #output=i
       w= "giri"
      print(w[-1]) #output -i
-     
+Q28- Write a code to get the desired output of the following.
+     string = "Big Data iNeuron"
+     desired_output = "iNeuron"
+Q29- 
