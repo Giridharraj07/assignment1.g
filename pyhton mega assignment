@@ -19,6 +19,9 @@ A28- string="big data ineuron"
      words = string.split(" ")
      desired_output = words[-1]
      print(desired_output)
+     #2nd way-string="Big Data iNeuron" 
+              print(string[9:16]) 
+              desired_output = "iNeuron"
 Q29-  Q29. Write a code to get the desired output of the following
       string = "Big Data iNeuron"
       desired_output = "norueNi"  
@@ -28,9 +31,15 @@ A29-string = "Big data iNeuron"
       # reverse the substring
       reversed_substring = substring[::-1]
       print(reversed_substring)
+      #2nd way-string = "Big Data iNeuron" 
+               temp_string = string[-7: ]
+               new_string = temp_string[::-1] 
+               print(new_string) desired_output = "norueNi"
 Q30-Resverse the string given in the above question.
 A30-string = "Big Data iNeuron" 
     temp_string = string[:16] 
     new_string = temp_string[::-1] 
     print(new_string)
+ Q31-How can you delete entire string at once?
+ A31-
 
