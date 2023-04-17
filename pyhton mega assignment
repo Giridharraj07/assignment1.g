@@ -41,5 +41,6 @@ A30-string = "Big Data iNeuron"
     new_string = temp_string[::-1] 
     print(new_string)
  Q31-How can you delete entire string at once?
- A31-we can use del keyword to delete the entire string
+ A31-we can use del keyword to delete the entire string.
+ Q32- What is escape sequence?
 
