@@ -40,7 +40,25 @@ A30-string = "Big Data iNeuron"
     temp_string = string[:16] 
     new_string = temp_string[::-1] 
     print(new_string)
- Q31-How can you delete entire string at once?
- A31-we can use del keyword to delete the entire string.
- Q32- What is escape sequence?
+Q31-How can you delete entire string at once?
+A31-we can use del keyword to delete the entire string.
+Q32- What is escape sequence?
+A32-They are primarily used to put nonprintable characters in character and string literals. For example, you can use escape sequences to put such characters as tab, carriage return, and backspace into an output stream.
+Q33-How can you print the below string?
+    'iNeuron's Big Data Course'
+A33- print("iNeuron's Big Data Course")
+Q34-What is a list in Python? 
+A34- list is a data structure which is also called collection of items, in which we can store anything like string,float, integer.
+Q35-How can you create a list in Python?
+A35-1st way-list1=[7,'giri','big data',2023]
+            print(list1)
+    2nd way-list2= []
+            print(type(list2))  
+Q36-How can we access the elements in a list?
+A36-We can access an element in a list using its index.
+Q37-Write a code to access the word "iNeuron" from the given list.
+
+lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+A37-lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
+    print(lst[4][2])
 
