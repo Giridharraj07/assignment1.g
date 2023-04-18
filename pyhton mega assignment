@@ -76,4 +76,8 @@ A42-t1=("giri","raj","dhar")
     print(t1)
     no its not possible to add a new item in a tuple because it is unchangable .
  Q43-Can two tuple be appended. If yes, write a code for it. If not, why?
- A43-
+ A43-no tuple cannot be appended because tuple are immutable.
+ Q44-Take a tuple as an input and print the count of elements in it
+ A44-tup=(22,55,"giri",7)
+     print(len(tup))
+ Q45-What are sets in Python?
