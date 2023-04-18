@@ -91,4 +91,12 @@ A42-t1=("giri","raj","dhar")
      set_g.add("iNeuron")
      print(set_g)
  Q48-Try to add multiple values using add() function.
- A48-
+ A48-we cannot add multiple values by using add() function because only one value will be allowed.
+ Q49-How is update() different from add()?
+ A49-update() put multiple values in your set but add() can't do this.
+     update function using[] but add function using()
+    set_g={1,2,3}                         
+    set_g.update(["iNeuron","giri",7])
+    print(set_g)
+ Q50-
+     
