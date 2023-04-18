@@ -62,3 +62,18 @@ lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
 A37-lst = [1,2,3,"Hi",[45,54, "iNeuron"], "Big Data"]
     print(lst[4][2])
 Q38- Take a list as an input from the user and find the length of the list.
+A38- list=[7,9,1995,'giri',5.11]
+     print(len(list))
+Q39-list1.insert(2,"Big")
+    print(list1) 
+Q40-What is a tuple? How is it different from list?
+A40-A tuple is a collection which is ordered and unchangeable. Tuples are written with round brackets. Tuples are immutable.-
+Q41-How can you create a tuple in Python?
+A41-t1=()
+Q42- Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+A42-t1=("giri","raj","dhar")
+    t1[3]="giridhar"
+    print(t1)
+    no its not possible to add a new item in a tuple because it is unchangable .
+ Q43-Can two tuple be appended. If yes, write a code for it. If not, why?
+ A43-
