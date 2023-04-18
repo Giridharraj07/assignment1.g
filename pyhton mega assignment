@@ -69,7 +69,7 @@ Q39-list1.insert(2,"Big")
 Q40-What is a tuple? How is it different from list?
 A40-A tuple is a collection which is ordered and unchangeable. Tuples are written with round brackets. Tuples are immutable.-
 Q41-How can you create a tuple in Python?
-A41-t1=()
+A41-t1=() 
 Q42- Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
 A42-t1=("giri","raj","dhar")
     t1[3]="giridhar"
@@ -81,3 +81,14 @@ A42-t1=("giri","raj","dhar")
  A44-tup=(22,55,"giri",7)
      print(len(tup))
  Q45-What are sets in Python?
+ A45- Set is a data structure which is  also called collection of items , in which we can represent a group of unique value as a single entity.
+ Q46- How can you create a set?
+ A46- set_name={1,2,3,4}
+      print(type(set_name))
+      print(set_name)
+ Q47-Create a set and add "iNeuron" in your set
+ A47-set_g={1,2,3}                         
+     set_g.add("iNeuron")
+     print(set_g)
+ Q48-Try to add multiple values using add() function.
+ A48-
