@@ -115,5 +115,7 @@ print("A U B:", A.union(B))
  s1 = {1, 2, 3}
  s2 = {2, 3}
 print(s1.intersection(s2))
- Q55-
+ Q55- What is dictionary in Python?
+ A55- 
+ 
      
