@@ -115,7 +115,19 @@ print("A U B:", A.union(B))
  s1 = {1, 2, 3}
  s2 = {2, 3}
 print(s1.intersection(s2))
- Q55- What is dictionary in Python?
- A55- 
+ Q55-What is dictionary in Python?
+ A55-Dictionary is a data structure in which we represent a group of object as key value pair.
+ Syntax- dict-name = {key:value}
+ Q56-How is dictionary different from all other data structures.
+ A56-dictionary stores data in key-value pairs
+ Q57-How can we delare a dictionary in Python?
+ A57-my_info={"name":"giridhar","Age":27,"city":"varanasi"}
+     print(my_info)
+ Q58-What will the output of the following?
+     var = {} 
+     print(type(var))
+ A58-:it will print dict type   
+ Q59-How can we add an element in a dictionary?
+    
  
      
