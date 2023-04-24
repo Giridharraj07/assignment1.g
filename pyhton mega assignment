@@ -98,5 +98,17 @@ A42-t1=("giri","raj","dhar")
     set_g={1,2,3}                         
     set_g.update(["iNeuron","giri",7])
     print(set_g)
- Q50-
+ Q50-What is clear() in sets?
+ A50-It removes all the elements from the set.
+ Q51-What is frozen set?
+ A51-Python frozenset() Method creates an immutable Set object from an iterable. It is a built-in Python function. As it is a set object therefore we cannot have duplicate values in the frozenset.
+     it has a characteristics of a set, but its elements cannot be changed once assigned.
+ Q52-How is frozen set different from set?
+ A52-Frozen set is just an immutable version of a Python set object. While elements of a set can be modified at any time, elements of the frozen set remain the same after creation.
+ Q53-What is union() in sets? Explain via code.
+ A53-the union() of two sets contains all the elements contained in either set(or both sets).
+ A = {2, 4, 5, 6} 
+ B = {4, 6, 7, 8} 
+print("A U B:", A.union(B))
+ Q54-
      
