@@ -128,6 +128,25 @@ print(s1.intersection(s2))
      print(type(var))
  A58-:it will print dict type   
  Q59-How can we add an element in a dictionary?
-    
+ A59-my_info={"name":"giridhar","Age":27,"city":"varanasi"}
+     my_info['Occupation']='Job'
+     print(my_info)
+ Q60-Create a dictionary and access all the values in that dictionary.
+ A60- my_info={"name":"giridhar","Age":27,"city":"varanasi"}
+
+     # Access all values in the dictionary using the values() method
+      all_values = my_info.values()
+
+      # Print all the values
+       print(all_values)
+  Q61-Create a nested dictionary and access all the element in the inner dictionary.
+  A61-my_info={"name":"giridhar","Age":27,"city":"varanasi",
+     "my_info2":{"name":"Nidhi","Age":26,"city":"varanasi"}}
+      # Access all values in the dictionary using the values() method
+      all_values = my_info.values()
+      # Print all the values
+      print(all_values)
+  Q62-What is the use of get() function?  
+      
  
      
