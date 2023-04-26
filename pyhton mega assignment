@@ -147,6 +147,23 @@ print(s1.intersection(s2))
       # Print all the values
       print(all_values)
   Q62-What is the use of get() function?  
-      
+  A62-this method returns the value of the specified key.
+  Q63-What is the use of items() function?
+  A63-this method returns an object that contains key-value pairs of dictionary.
+  Q64- What is the use of pop() function?
+  A64-this method is used to remove last element from the existing list.
+  Q65-What is the use of popitems() function
+  A65-this method is used to remove the item which was last inserted into the dictionary.
+  Q66-What is the use of keys() function?
+  A66-this method returns a sequence of keys from the dictionary.
+  Q67- What is the use of values() function.
+  A67-this method returns a sequence of values from the dictionary.
+  Q68-What are loops in Python?
+  A68-loops are conditional statement which is used to execute a statement a given number of times.
+  Q69-How many type of loop are there in Python?
+  A69-for loop and while loop
+  Q70-What is the difference between for and while loops?
+  A70-The for loop is used when we know the number of iterations, that is, how many times a statement must be executed. That is why, when we initialize the for loop, we must define the ending point. A while loop is used when the number of iterations is unknown.
+  Q71- What is the use of continue statement?
  
      
