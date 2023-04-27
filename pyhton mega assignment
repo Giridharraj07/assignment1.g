@@ -170,4 +170,8 @@ print(s1.intersection(s2))
   A72-Break' in Python is a loop control statement. It is used to control the sequence of the loop. Suppose you want to terminate a loop and skip to the next code after the loop; break will help you do that.
   Q73-What is the use of pass statement?
   A73-pass statement is used to do nothing.it can be used inside a loop or if statement to represent no operation. pass is useful when we need statement syntactically correect but we do not want to do any operation.
-     
+  Q74-What is the use of range() function?
+  A74-The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified number.
+  Q75-How can you loop over a dictionary?
+  A75-we can loop over a dictionary by  using a for loop.
+  Q76-
