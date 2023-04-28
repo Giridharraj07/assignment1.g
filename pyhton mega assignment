@@ -218,4 +218,19 @@ if orig==sum:
 else:
     print("not armstrong")        
   Q81-Write a Python program to find the n-th Fibonacci Number
-  A81-
+  A81-terms=int(input("enter the number of terms:"))
+n1=0
+n2=1
+count=0
+if(terms<=0):
+    print("please enter valid terms")
+elif(terms==1):
+    print(n1)
+else:
+    print("fibonacci number")
+    while(count<terms):
+        n3=n1+n2
+        print(n1)
+        n1=n2
+        n2=n3
+        count +=1
