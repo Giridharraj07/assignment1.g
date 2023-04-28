@@ -181,8 +181,21 @@ print(s1.intersection(s2))
           fac=fac*i
           i=i-1
       print("factorial=",fac)
- Q78-Write a Python program to check if a number is prime or not.
- A78-n=int(input("enter number:"))
+  Q77-Write a Python program to calculate the simple interest. Formula to calculate simple interest is SI = (PRT)/100
+  A77-p=int(input("enter principal:"))
+      t=int(input("enter time:"))
+      r=int(input("enter rate:"))
+      si=p*r*t/100
+      print("simple interest is:",si)
+   Q78-Write a Python program to calculate the compound interest. Formula of compound interest is A = P(1+ R/100)^t
+   A78-p=int(input("enter principal:"))
+       t=int(input("enter time:"))
+       r=int(input("enter rate:"))
+       amount = p*(pow((1+ r/100),t))
+       ci=amount-p
+       print("compound interest is:",ci)
+ Q79-Write a Python program to check if a number is prime or not.
+ A79-n=int(input("enter number:"))
      count=0
      i=1
        while (i<=n):
@@ -193,4 +206,5 @@ print(s1.intersection(s2))
            print("prime")
        else:
            print("not prime")
-   Q79-        
+  Q80-Write a Python program to check Armstrong Number.
+  A80-
