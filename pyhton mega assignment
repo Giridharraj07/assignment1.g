@@ -239,7 +239,7 @@ else:
        lst[0],lst[-1] = lst[-1],lst[0] 
        print(lst)    
    Q83-Write a Python program to swap two elements in a list.   
-       lst=[1,2,3,4,5]
+   A83-lst=[1,2,3,4,5]
        lst[0],lst[-1] = lst[-1],lst[0] 
        print(lst)   
    Q84-Write a Python program to find N largest element from a list.
@@ -254,7 +254,29 @@ for i in range(size):
         max=a[i]
 print("max number=",max)  
     Q85-Write a Python program to find cumulative sum of a list.
-    A85-
+    A85-def cumsum(s):
+    sm=0
+    cum_list=[]
+    for i in s:
+        sm=sm+i
+        cum_list.append(sm)
+    return cum_list   
+s=[10,20,30,40,50]  
+print(cumsum(s)) 
+     Q86-Write a Python program to check if a string is palindrome or not
+     A86-a=input("enter string:")
+b=a[-1::-1]
+if(a==b):
+    print("palindrome string")
+else:
+    print("not palindrome")
+     Q87-Write a Python program to remove i'th element from a string
+     A87-s=input("enter the string:")
+         n=int(input("enter the value of i"))
+         a=s[0:n-1]
+         b=s[n:]
+         print("resultant string is",a+b)
+      Q88-  
    
        
        
