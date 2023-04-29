@@ -243,7 +243,18 @@ else:
        lst[0],lst[-1] = lst[-1],lst[0] 
        print(lst)   
    Q84-Write a Python program to find N largest element from a list.
-   A84- 
+   A84- a=[]
+size=int(input("enter size of the list:"))
+for i in range(size):
+    val=int(input("enter number:"))
+    a.append(val)
+max=a[0] 
+for i in range(size):
+    if(a[i]>max):
+        max=a[i]
+print("max number=",max)  
+    Q85-Write a Python program to find cumulative sum of a list.
+    A85-
    
        
        
