@@ -276,8 +276,29 @@ else:
          a=s[0:n-1]
          b=s[n:]
          print("resultant string is",a+b)
-      Q88-  
-   
+      Q88-Write a Python program to check if a substring is present in a given string
+      A88-s=input("Enter the string:")
+          sub=input("enter the substring:")
+          if(s.find(sub)>0):
+                print("present")
+          else:
+                print("not present")
+      Q89-Write a Python program to find words which are greater than given length k
+      A89-sentence = "i am learning Bigdata from ineuron " 
+           k = int(input("enter a number : ")) 
+           lst =[] 
+           for i in sentence.split(): 
+               if len(i) > k : lst.append(i) 
+                print("words which are greater than given length k are :",lst)
+      Q90-Write a Python program to extract unquire dictionary values.
+      A90-Student_list={1:"kirti",2:"kirti",3:"giri"}
+          print(set(Student_list.values()))
+      Q91- Write a Python program to merge two dictionary.
+      A91-dict1={"john":88,"lisa":55}
+          dict2={"kile":99,"giri":100}
+          dict3={**dict1,**dict2}
+          print(dict3)
+      Q92-   
        
        
        
