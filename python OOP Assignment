@@ -3,7 +3,25 @@ A1-OOP-object oriented programming:
    it is a programming approach based on classes and objects. in simple languagge, OOP is the method to represent the "real world entity" in programming.
    OOP features- class and objects, inhertance,polymorphism,encapsulation,abstraction.
 Q2-Where does an inheritance search look for an attribute?
-A2-In Python, when you access an attribute of an object, the interpreter searches for the attribute in the object's class, and if it's not found there, it continues the search in the class's parent classes in a specific order. This process is called the "method resolution order" (MRO) or "inheritance search".
-   The inheritance search looks for an attribute in the following order:
-   The object's own classThe first parent classThe first parent's parent class, and so on, until:The topmost object, which is typically the built-in object class.If the attribute is not found in any of these classes, a AttributeError is raised.
-   This process is defined by the C3 linearization algorithm, which produces a consistent and predictable order for the search. This order is stored in the __mro__ attribute of a class, and can be viewed using the mro() method or by accessing the __mro__ attribute directly
+A2-An inheritance search looks for an attribute first in the instance object, then in the class the instance was created from, 
+then in all higher superclasses, progressing from left to right (by default). The search stops at the first place the attribute is found.
+
+Q3- How do you distinguish between a class object and an instance object?
+A3-A Class defines the structure, property, and behaviour of an Object. You can think of a Class as a blueprint.
+An Object is created from a Class, like a house is created from a blueprint.
+Instance − An individual object of a certain class.
+Q4- What makes the first argument in a class’s method function special?
+A4- Generally, when we call a method with some arguments, the corresponding class function is called by placing the method's object before the first argument. 
+So, anything like obj.meth(args) becomes Class.meth(obj, args). The calling process is automatic while the receiving process is not (its explicit).
+This is the reason the first parameter of a function in class must be the object itself.
+Q5-What is the purpose of the init method.
+A5- The __init__ method is a special method in Python classes that is used to initialize an object when it is created. 
+It is also known as a constructor method.The primary purpose of the __init__ method is to set the initial state of an object by initializing its instance variables or attributes.
+It takes self as its first parameter, which refers to the object being created, and can also take additional parameters that are used to set the values of the object's attributes.
+Q6-What is the process for creating a class instance?
+A6-The process for creating a class instance in python involves the following steps:
+   a-Define a class: First, define a class using the class keyword, and specify the attributes and methods that the class should have.
+   b-Instantiate the class: To create an instance of the class, call the class using parentheses, passing any necessary arguments to the __init__ method (if it has one) to initialize the object's attributes. This creates a new instance of the class, which is stored in a variable.
+Q7-What is the process for creating a class?
+A7-creating a class in Python involves defining the class, defining its attributes and methods, and then instantiating the class to create instances of the class.
+Q8-How would you define the superclasses of a class?
