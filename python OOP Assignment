@@ -1,0 +1,9 @@
+Q1- What is the purpose of Python's OOP?
+A1-OOP-object oriented programming:
+   it is a programming approach based on classes and objects. in simple languagge, OOP is the method to represent the "real world entity" in programming.
+   OOP features- class and objects, inhertance,polymorphism,encapsulation,abstraction.
+Q2-Where does an inheritance search look for an attribute?
+A2-In Python, when you access an attribute of an object, the interpreter searches for the attribute in the object's class, and if it's not found there, it continues the search in the class's parent classes in a specific order. This process is called the "method resolution order" (MRO) or "inheritance search".
+   The inheritance search looks for an attribute in the following order:
+   The object's own classThe first parent classThe first parent's parent class, and so on, until:The topmost object, which is typically the built-in object class.If the attribute is not found in any of these classes, a AttributeError is raised.
+   This process is defined by the C3 linearization algorithm, which produces a consistent and predictable order for the search. This order is stored in the __mro__ attribute of a class, and can be viewed using the mro() method or by accessing the __mro__ attribute directly
