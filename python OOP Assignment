@@ -25,3 +25,10 @@ A6-The process for creating a class instance in python involves the following st
 Q7-What is the process for creating a class?
 A7-creating a class in Python involves defining the class, defining its attributes and methods, and then instantiating the class to create instances of the class.
 Q8-How would you define the superclasses of a class?
+A8-In object-oriented programming, the superclass of a class is the class that it inherits from, also known as its parent class. 
+The subclass (or child class) inherits all the attributes and methods of its superclass and can add its own unique attributes and methods.
+Q9-What is the relationship between classes and modules?
+A9-modules and classes serve different purposes, but they can work together to help you organize and reuse code in a program or system.
+Q10-How do you make instances and classes?
+A10-to create instances of a class, you need to define the class first, and then create instances of it by calling the class with the required arguments.
+Once you have an instance of the class,you can access its instance variables and methods using dot notation.
