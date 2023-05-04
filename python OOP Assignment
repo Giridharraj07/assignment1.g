@@ -77,7 +77,34 @@ A20-1-Catch the exception
     2-retry the operation
     3-handle the Error And continue
     4-Graceful termination
- Q21-   
+ Q21- Describe two methods for triggering exceptions in your script
+ A21-Raise an exception explicitly: 
+ You can raise an exception explicitly in your code using the raise statement. For example, 
+ you can raise an exception when a condition is not met in your code. Here's an example:
+x =10
+if x > 5:
+    raise Exception("x should not exceed 5,")
+In this example, an exception is raised if the value of x is greater than 5. The raise statement raises an instance of the Exception class with a custom error message.
+Catch an error: In some cases, exceptions are triggered automatically when an error occurs during code execution.
+For example, if you try to access an element in a list that does not exist, a IndexError exception will be raised automatically.
+You can catch this exception using a try-except block, and handle the error gracefully. Here's an example:
+my_list = [1, 2, 3]
+try:
+    print(my_list[3])
+except IndexError:
+    print("Index out of range.")
+In this example, we're trying to access an element in the my_list that doesn't exist. 
+This will trigger an IndexError exception, which we catch in the except block and print a custom error message instead of the default error message.
+Q22- Identify two methods for specifying actions to be executed at termination time, regardless of
+whether or not an exception exists
+A22- finally clause: Used in conjunction with the try and except blocks to specify actions that must be executed at the end of the block, 
+regardless of whether an exception was raised or not.
+Context managers: Objects that define a runtime context in which certain actions are performed before and after the execution of a block of code.
+They are often used to manage resources that need to be cleaned up after use, such as files or network connections.
+Q23-What is the purpose of the try statement?
+A23-the try statement provides a way to handle errors and exceptions gracefully, and prevent your program from crashing or producing unexpected results. 
+It allows you to write code that can recover from errors and continue executing, or terminate gracefully with appropriate error handling.
+
 
 
 
