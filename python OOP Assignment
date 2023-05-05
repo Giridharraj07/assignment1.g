@@ -104,7 +104,35 @@ They are often used to manage resources that need to be cleaned up after use, su
 Q23-What is the purpose of the try statement?
 A23-the try statement provides a way to handle errors and exceptions gracefully, and prevent your program from crashing or producing unexpected results. 
 It allows you to write code that can recover from errors and continue executing, or terminate gracefully with appropriate error handling.
-
+Q24-What are the two most popular try statement variations?
+A24-1-try-except: This statement is used to handle exceptions that might occur during the execution of a block of code. 
+2-try-finally: This statement is used to ensure that a block of code is executed, regardless of whether an exception occurs or not.
+Q25-What is the purpose of the raise statement?
+A25-  The purpose of the raise statement is to generate and throw an exception manually in your code, based on certain conditions that you define. For example,
+you might use a raise statement to indicate that a particular function has received invalid input arguments or that a file cannot be found.
+The raise statement can be followed by an exception type and an optional error message, 
+which provide more information about the nature of the error that occurred. By raising exceptions in your code,
+you can improve its robustness and make it easier to diagnose and fix problems when they occur.
+Q26-What does the assert statement do, and what other statement is it like?
+A26-The assert statement is similar to other conditional statements like if and while, in that it executes a block of code based on a condition. However, unlike if and while, the assert statement is used primarily for debugging and testing purposes, rather than for controlling program flow.
+Other statements that are similar to assert include raise and try-except. raise is used to manually raise an exception when a certain condition is met, 
+whereas assert is used to check that a condition is met and raise an exception if it's not. 
+try-except is used to catch and handle exceptions that occur during program execution,
+whereas assert is used to check that certain conditions are met to prevent exceptions from occurring.
+Q27- What is the purpose of the with/as argument, and what other statement is it like?
+A27- The with/as statement in Python is used for creating a context in which certain resources are managed automatically.
+It allows you to ensure that certain operations are properly initialized and cleaned up, even if exceptions occur during the execution of the code block
+The with/as statement is similar to the try/finally statement, which is also used to ensure that certain operations are properly initialized and cleaned up.
+Q28-What are *args, **kwargs?
+A28-args is a tuple that allows you to pass a variable number of non-keyworded arguments to a function. This means that you can pass any number of arguments to the function, and they will be collected into a tuple that can be accessed within the function. 
+kwargs is a dictionary that allows you to pass a variable number of keyworded arguments to a function. This means that you can pass any number of arguments to the function, and they will be collected into a dictionary that can be accessed within the function
+Q29-How can I pass optional or keyword parameters from one function to another?
+A29-To pass optional parameters using *args, you can pass the *args parameter to the second function, which will collect all the optional parameters and store them in a tuple.
+To pass keyword parameters using **kwargs, you can pass the **kwargs parameter to the second function, which will collect all the keyword parameters and store them in a dictionary.
+Q30-What are Lambda Functions?
+A30- a lambda function is a small anonymous function that can have any number of arguments, but can only have one expression. 
+Lambda functions are sometimes also called anonymous functions or function literals. 
+Q31-
 
 
 
