@@ -132,7 +132,20 @@ To pass keyword parameters using **kwargs, you can pass the **kwargs parameter t
 Q30-What are Lambda Functions?
 A30- a lambda function is a small anonymous function that can have any number of arguments, but can only have one expression. 
 Lambda functions are sometimes also called anonymous functions or function literals. 
-Q31-
+Q31-Explain Inheritance in Python with an example?
+A31-When we define a class that inherits all the properties of other class called inhertance.
+A31-class father:
+    def lands(self):
+        print("having 50 accre lands")
+class son(father):
+    def money(self):
+        print("having 10 lakhs money")
+
+s=son()
+s.lands()
+s.money()
+Q32-Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
+A32-
 
 
 
