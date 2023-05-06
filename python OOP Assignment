@@ -145,7 +145,28 @@ s=son()
 s.lands()
 s.money()
 Q32-Suppose class C inherits from classes A and B as class C(A,B).Classes A and B both have their own versions of method func(). If we call func() from an object of class C, which version gets invoked?
-A32-
+A32-If class C inherits from classes A and B and both classes A and B have their own version of the method Func(), 
+then the version of Func() that gets invoked when the method is called from an object of class C depends on the method resolution order (MRO) of class C.
+The MRO determines the order in which Python looks for methods and attributes in a hierarchy of classes. By default,
+Python uses the C3 linearization algorithm to calculate the MRO of a class. This algorithm guarantees that the MRO is consistent and respects the order of inheritance.
+Q33-Which methods/functions do we use to determine the type of instance and inheritance?
+A33-In Python, we can use the type() function to determine the type of an instance.
+For example, if we have an instance obj of a class MyClass, we can use type(obj) to determine the type of obj, which will be the class MyClass.
+To determine the inheritance of a class, we can use the __bases__ attribute of the class.
+This attribute is a tuple that contains the base classes of the class in the order they were specified in the class definition.
+For example, if we have a class MyClass that inherits from classes A and B, we can use MyClass.__bases__ to get a tuple containing (A, B).
+Q34-.Explain the use of the 'nonlocal' keyword in Python
+A34-The nonlocal keyword in Python is used to declare a variable in a nested function to be a nonlocal variable. 
+A nonlocal variable is a variable that is not local to the current function but is also not global. In other words, 
+a nonlocal variable is a variable that is defined in the outer function of the current function,but not in the global scope.
+Q35-What is the global keyword?
+A35-The global keyword in Python is used to declare a variable inside a function to be a global variable.
+A global variable is a variable that is defined outside of any function and can be accessed and modified from any part of the code.
+When a variable is declared as global inside a function, 
+it means that the variable is not local to the current function but is also not a new variable that is local to the current function. Instead, 
+it refers to the same variable that is defined in the global scope.
+
+
 
 
 
